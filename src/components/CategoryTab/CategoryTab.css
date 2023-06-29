@@ -1,0 +1,27 @@
+.CategoryTabContainer {
+  display: flex;
+  flex-direction: row;
+  background: green;
+  border-radius: 15px;
+  width: 35%;
+  height: 12%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2%;
+  margin-top: 2%;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+
+.CategoryName {
+  font-weight: 700;
+}
+
+.CategoryRemove {
+  background: none;
+  outline: none;
+  border: none;
+  /* color: white; */
+  color: rgb(30, 29, 29);
+}

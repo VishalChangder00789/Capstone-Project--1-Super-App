@@ -1,18 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import Page1 from "./pages/page1/page1";
+import Page2 from "./pages/page2/page2";
+import Page3 from "./pages/page3/page3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/register" element="#" />
+        <Route path="/" element={<Page1 />} />
+        <Route path="/selectCategory" element={<Page2 />} />
+        <Route path="/profile" element={<Page3 />} />
       </Routes>
     </BrowserRouter>
   </Provider>

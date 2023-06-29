@@ -1,0 +1,97 @@
+.Page2 {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid green; */
+}
+.LeftPanel_Page2 {
+  /* border: 2px solid red; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading_Page2 {
+  color: #72db73;
+  font-family: "Single Day", cursive;
+  font-size: xx-large;
+  width: 60%;
+  height: 10%;
+  font-size: 250%;
+  /* border: 2px solid red; */
+}
+
+.subHeading_Page2 {
+  /* border: 2px solid white; */
+  width: 60%;
+  height: 30%;
+  margin-top: 3%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 350%;
+  font-weight: 800;
+}
+
+.CategoryContainer_Page2 {
+  color: white;
+  margin-top: 15%;
+  /* border: 2px solid green; */
+  width: 60%;
+  display: flex;
+  height: 20%;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.ErrorPlace {
+  color: #ff0000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.RightPanel_Page2 {
+  /* border: 2px solid green; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightPanel_Page2_Container {
+  height: 75%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.RightPanel_Page2_ButtonContainer {
+  /* border: 2px solid green; */
+  display: flex;
+  margin-top: 2%;
+  width: 75%;
+  height: 5%;
+  justify-content: flex-end;
+}
+
+.RightPanel_Page2_Button {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  background: #148a08;
+  border-radius: 25px;
+  color: white;
+  font-size: 100%;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,58 @@
+.RightPanelContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.RightPanelHeading {
+  color: #72db73;
+  font-family: "Single Day", cursive;
+  font-size: xx-large;
+  /* border: 2px solid red; */
+}
+
+.RightPanelSubHeading1 {
+  color: white;
+  font-family: sans-serif;
+  margin-top: 2%;
+}
+
+.RightPanelFormContainer {
+  /* border: 2px solid brown; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 2%;
+}
+
+.RightPanelContainer_Detail {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Single Day", cursive; */
+  /* border: 2px solid red; */
+  width: 70%;
+  height: 20%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 700;
+}
+.Detail1 {
+  color: #7c7c7c;
+}
+.Details1_green {
+  color: #72db73;
+}
+
+.Detail2 {
+  /* border: 2px solid green; */
+  color: #7c7c7c;
+}

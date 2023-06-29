@@ -1,0 +1,16 @@
+.CheckBoxContainer {
+  display: flex;
+  height: 7%;
+  width: 70%;
+  /* border: 2px solid tomato; */
+  margin-top: 2%;
+  color: #7c7c7c;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.ErrorClass {
+  color: red;
+}
