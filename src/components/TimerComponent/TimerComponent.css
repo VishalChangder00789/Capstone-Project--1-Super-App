@@ -1,0 +1,17 @@
+.TimerComponent {
+  display: flex;
+  /* border: 2px solid red; */
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.RemainingTimeText {
+  color: blueviolet;
+  font-size: 45px;
+}
+
+.ClockContainer {
+  /* border: 2px solid red; */
+  font-size: 20px;
+}

@@ -1,0 +1,71 @@
+.TimerSetComponentContainer {
+  /* border: 2px solid green; */
+  margin-left: 15%;
+  min-width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.InnerContainer {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  width: 99%;
+  height: 65%;
+  margin-top: 3%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.SetTimeComponent {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid yellow; */
+  height: 100%;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: #949494;
+}
+
+.TextContainer {
+  display: flex;
+  /* border: 2px solid orange; */
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextContainer > img {
+  /* border: 2px solid crimson; */
+  height: 10%;
+  width: 20%;
+}
+
+.TextContainer > span {
+  font-size: 45px;
+}
+
+.TimerButton {
+  display: flex;
+  margin-top: 1%;
+  width: 65%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  background: #ff6a6a;
+  outline: none;
+  border: none;
+  border-radius: 45px;
+  font-size: 24px;
+  color: aliceblue;
+  font-weight: bolder;
+}

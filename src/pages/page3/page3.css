@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
 .Page3 {
   height: 100vh;
   width: 100vw;
@@ -5,4 +9,371 @@
   display: flex;
   flex-direction: row;
   /* border: 2px solid green; */
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*LEFT CONTAINER*/
+.LeftContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  height: 90%;
+  width: 65%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*LEFT TOP OUTER BOX*/
+.Top {
+  display: flex;
+  width: 90%;
+  height: 65%;
+  justify-content: space-around;
+  /* border: 2px solid rgb(234, 255, 0); */
+}
+
+/* LEFT TOP : LEFT CONTENT */
+.Profile {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 2px solid pink; */
+}
+
+/* NOTES SECTION */
+.Notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 35%;
+  /* border: 2px solid green; */
+}
+
+.NotesContainer {
+  /* border: 2px solid salmon; */
+  height: 90%;
+  width: 85%;
+  border-radius: 25px;
+  background: #f1c75b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.NotesHeading {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  width: 95%;
+  height: 15%;
+  align-items: center;
+  color: #000000;
+  font-weight: bolder;
+  padding-left: 2%;
+  font-size: larger;
+}
+
+.NotesContent {
+  overflow-y: auto;
+  display: flex;
+  border: 2px solid rgba(89, 89, 89, 0.144);
+  height: 70%;
+  width: 85%;
+  border-radius: 25px 25px 25px 25px;
+  word-break: break-all;
+  /* overflow-x: auto;*/
+  /* overflow-x: auto; */
+  color: #000000;
+  justify-content: center;
+  padding: 4%;
+  background: rgba(120, 120, 120, 0.242);
+}
+
+/* PROFILES AND PURPLE BOX*/
+
+.ProfileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  background: #5746ea;
+  border-radius: 35px;
+  justify-content: space-around;
+  /* border: 2px solid purple; */
+}
+.Left_ProfileImage {
+  display: flex;
+  height: 80%;
+  width: 20%;
+  /* border: 2px solid skyblue; */
+}
+.Left_ProfileImage_Image {
+  height: 100%;
+  width: 100%;
+}
+
+.Right_ProfileDetails {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  justify-content: space-around;
+  /* border: 2px solid magenta; */
+}
+.Name {
+  font-size: 20px;
+}
+.Email {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  /* height: 45%; */
+  word-break: break-all;
+}
+.Username {
+  font-size: 28px;
+}
+
+.ChoicesContainer {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  /* border: 2px solid purple; */
+  overflow-y: auto;
+}
+
+.Choice {
+  background: #9f94ff;
+  margin-left: 2%;
+  width: 35%;
+  height: 45%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  font-size: 15px;
+}
+
+/*
+
+
+
+
+*/
+
+.NewWeatherAppContainer {
+  border: 2px solid burlywood;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  /* width: 90%; */
+  width: 100%;
+  border-radius: 35px;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 5%; */
+}
+.NewWeatherAppContainer_Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 25%;
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  background: #ff4ade;
+  font-size: 25px;
+  align-items: center;
+  font-weight: bolder;
+  /* border: 2px solid rgb(182, 182, 255); */
+}
+
+.NewWeatherAppContainer_Bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+  border-radius: 0px 0px 35px 35px;
+  background: #101744;
+}
+
+.size {
+  height: 60%;
+  width: 20%;
+  border-style: none solid none none;
+  border: 2px solid red;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+.alignment1 {
+  flex-direction: column;
+}
+.alignment1 {
+  flex-direction: column;
+}
+
+/*THIRD BOX*/
+.notwant {
+  /* border-style: none; */
+}
+
+/*
+
+
+
+
+*/
+
+/*TIMER*/
+.Bottom {
+  display: flex;
+  height: 25%;
+  width: 90%;
+  border-radius: 15px;
+  background: #1e2343;
+  /* border: 2px solid purple; */
+}
+
+/*Right Side*/
+.RightContainer {
+  display: flex;
+  /* border: 2px solid blue; */
+  height: 90%;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid rgb(191, 13, 255);  */
+}
+
+.RightContainer_InnerContainer {
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  height: 85%;
+  width: 60%;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid rgb(51, 255, 0);
+}
+
+.PictureContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 45%;
+  /* border: 2px solid rgb(119, 255, 0); */
+}
+.PictureContainerImage {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.NewsHeading {
+  position: absolute;
+  /* border: 2px solid violet; */
+  width: 100%;
+  bottom: 0%;
+  height: 25%;
+  background: #000000b2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NewsContent {
+  display: flex;
+  background: white;
+  height: 55%;
+  width: 100%;
+  color: #101744;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.ContentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  width: 85%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.066);
+  /* align-items: center; */
+  justify-content: center;
+  padding: 2%;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+
+.RightContainer_Button {
+  /* border: 2px solid white; */
+  width: 60%;
+  height: 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.RightContainer_Button_Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #148a08;
+  border-radius: 25px;
+  color: white;
+  font-size: 100%;
+  border: none;
+  outline: none;
+  width: 30%;
+  height: 100%;
+}
+
+/*SCROLL BAR*/
+/*Inner Scroll Bar*/
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.078);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2%;
 }

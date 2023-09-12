@@ -35,7 +35,7 @@ const Page2 = () => {
         </div>
         <div className="CategoryContainer_Page2">
           {categories.map((cat) => {
-            return <CategoryTab catName={cat} />;
+            return <CategoryTab cat={cat} />;
           })}
         </div>
         <div className="ErrorPlace">
@@ -56,6 +56,7 @@ const Page2 = () => {
                 name={category.name}
                 img={category.img}
                 color={category.color}
+                id={category.id}
               />
             );
           })}

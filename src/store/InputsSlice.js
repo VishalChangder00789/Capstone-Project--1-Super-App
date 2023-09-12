@@ -5,7 +5,7 @@ const InputSlice = createSlice({
   initialState: {
     name: "Bishal ",
     username: "bishal",
-    email: "123123213",
+    email: "vishal1999@gmail.com",
     mobile: "123123132",
   },
 
