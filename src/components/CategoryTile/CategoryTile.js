@@ -7,18 +7,21 @@ const CategoryTile = ({ name, img, color, id }) => {
   const dispatch = useDispatch();
   const category = useSelector((state) => state.categories);
 
-  const handleAddCategoryEvent = (name, id) => {
+  const handleAddCategoryEvent = (obj) => {
     // if the category is not present then only add to state
-    if (!category.includes(name)) {
-      dispatch(addCategories({ name, id }));
+
+    for (let i = 0; i < category.length; i++) {
+      if (category[i].id == obj.id) {
+        return;
+      }
     }
 
-    return;
+    dispatch(addCategories({ name, id }));
   };
 
   return (
     <div
-      onClick={() => handleAddCategoryEvent(name, id)}
+      onClick={() => handleAddCategoryEvent({ name, id })}
       className="CategoryTile"
       style={{ background: `${color}` }}
     >

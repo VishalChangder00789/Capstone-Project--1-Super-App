@@ -8,13 +8,11 @@ const CategorySlice = createSlice({
   ],
   reducers: {
     addCategories(state, action) {
-      console.log(action.payload);
       state.push(action.payload);
     },
 
     removeCategory(state, action) {
-      console.log(action.payload);
-      return state.filter((c) => c.id !== action.payload.id);
+      return state.filter((c) => c.id != action.payload.id);
     },
   },
 });
