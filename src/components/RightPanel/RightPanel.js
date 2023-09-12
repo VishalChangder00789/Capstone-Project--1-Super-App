@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addData } from "../../store/InputsSlice";
+import { saveDetailsToLocalStorage } from "../../controller/localStorage";
 
 const RightPanel = () => {
   const navigate = useNavigate();
@@ -33,9 +34,11 @@ const RightPanel = () => {
       return;
     } else {
       dispatch(addData(information));
+      saveDetailsToLocalStorage(information);
     }
 
     // navigate to the new page
+
     navigate("/selectCategory");
   };
 

@@ -9,7 +9,6 @@ const TimerSetComponent = ({ setTimeSet, setTimerStart, timerStart }) => {
   const [Second, setSecond] = useState(0);
 
   const onTimePlay = (hour, minute, second) => {
-    console.log("Plau");
     setTimeSet({ hour, minute, second });
     setTimerStart(true);
   };

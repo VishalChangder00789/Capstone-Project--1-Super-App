@@ -9,10 +9,6 @@ import axios from "axios";
 const Page4 = () => {
   const categories = useSelector((state) => state.categories);
 
-  useEffect(() => {
-    console.log(categories);
-  });
-
   return (
     <div className="Page4">
       <div className="Page4-TopContent">

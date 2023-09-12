@@ -54,8 +54,6 @@ const Page3 = () => {
             Math.floor(Math.random() * data.data.articles.length)
           ]
         );
-
-        console.log(newsHead);
       })
       .catch((err) => {
         console.log(err.message);
@@ -77,7 +75,11 @@ const Page3 = () => {
                 <div className="Username">{profileDetails.username}</div>
                 <div className="ChoicesContainer">
                   {choices.map((c) => {
-                    return <div className="Choice">{c.name}</div>;
+                    return (
+                      <div key={c.id} className="Choice">
+                        {c.name}
+                      </div>
+                    );
                   })}
                 </div>
               </div>
@@ -122,15 +124,8 @@ const Page3 = () => {
             <div className="NotesContainer">
               <div className="NotesHeading">All notes</div>
               <div className="NotesContent">
-                saasjbdaskjbdakjbdasjkb askjbasfjbfs asgsadfusfdufdsu
-                asfuiufsdiudssbiusfdb sudfsdfiusdfiubsduisfd
-                sdiugbsfduibfsuibsuis sdusdiufdsuibfsduibf
-                sfdubsdfuibsfduibfiubfiubi sdudsuibdsiubfsdiubdsibbssubsuibs
-                saasjbdaskjbdakjbdasjkb askjbasfjbfs asgsadfusfdufdsu
-                asfuiufsdiudssbiusfdb sudfsdfiusdfiubsduisfd
-                sdiugbsfduibfsuibsuis sdusdiufdsuibfsduibf
-                sfdubsdfuibsfduibfiubfiubi
-                sdudsuibdsiubfsdiubdsibbssubsuibsasdad
+                Notes are good to remember things, if notes are kept then it is
+                easier to visualise things
               </div>
             </div>
           </div>

@@ -10,7 +10,6 @@ const UrgeWithPleasureComponent = ({ timeSet, timerStart }) => {
 
   useEffect(() => {
     setDuration(timeSet.hour * 3600 + timeSet.minute * 60 + timeSet.second);
-    console.log("Timer start : ", timerStart);
   });
 
   const minuteSeconds = 60;
@@ -29,8 +28,6 @@ const UrgeWithPleasureComponent = ({ timeSet, timerStart }) => {
   };
 
   const getTime = (remainingTime, duration) => {
-    console.log("Duration is : ", duration);
-
     let showTime = remainingTime;
 
     let hour = parseInt(remainingTime / 3600);
@@ -40,7 +37,6 @@ const UrgeWithPleasureComponent = ({ timeSet, timerStart }) => {
       seconds = 0;
     }
 
-    console.log(hour, minute, seconds);
     return renderTime({ hour, minute, seconds });
   };
 
